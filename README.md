@@ -27,7 +27,9 @@ This run_analysis.R file downloads data from website, then manipulates and clean
    1. load activity data into R  
    2. replace 1 to 6 with activity names  
 4. Appropriately labels the data set with descriptive variable names.  
-   1. All "()" is removed; all abbreviations are replaced with their full names; all "-" are replaced with "", and all words are seperated with "" in the column names to appropriately label the data set subData with descriptive variable names.  
+   1. All "()" is removed; all abbreviations are replaced with their full names.
+   2. All "-" are replaced with "".
+   3. All words are seperated with "" in the column names to appropriately label the data set subData with descriptive variable names.
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 ### Datasets explaination
