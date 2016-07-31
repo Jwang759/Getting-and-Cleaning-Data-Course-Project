@@ -15,19 +15,19 @@
 This run_analysis.R file downloads data from website, then manipulates and cleans the data set to create an independent tidy data set with the average of the mean and standard deviation for each measurement for each activity and each subject.
 
 ### Detailed steps inside "run_analysis.R"
-1. Merge the training and the test sets to create one data set.
-   a. download the zip file 
-   b.unzip data
-   c. read data into R
-   d. merge the training and the test sets
-2.  Extract only the measurements on the mean and standard deviation for each measurement. 
-   a. load feature name into R and add column names
-   b. extract mean and standard deviation of each measurements by searching for key words "mean()" and "std()"
-3. Uses descriptive activity names to name the activities in the data set
-   a. load activity data into R
-   b. replace 1 to 6 with activity names
-4. Appropriately labels the data set with descriptive variable names.
-   a. All "()" is removed; all abbreviations are replaced with their full names; all "-" are replaced with "", and all words are seperated with "" in the column names to appropriately label the data set subData with descriptive variable names.
+1. Merge the training and the test sets to create one data set.  
+   a. download the zip file   
+   b. unzip data  
+   c. read data into R  
+   d. merge the training and the test sets  
+2.  Extract only the measurements on the mean and standard deviation for each measurement.   
+   a. load feature name into R and add column names  
+   b. extract mean and standard deviation of each measurements by searching for key words "mean()" and "std()"  
+3. Uses descriptive activity names to name the activities in the data set  
+   a. load activity data into R  
+   b. replace 1 to 6 with activity names  
+4. Appropriately labels the data set with descriptive variable names.  
+   a. All "()" is removed; all abbreviations are replaced with their full names; all "-" are replaced with "", and all words are seperated with "" in the column names to appropriately label the data set subData with descriptive variable names.  
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 ### Datasets explaination
