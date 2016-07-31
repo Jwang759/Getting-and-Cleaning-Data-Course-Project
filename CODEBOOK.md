@@ -14,7 +14,7 @@ These signals were used to estimate variables of the feature vector for each pat
 
 **"activity"**: Factor of 6 levels, labeled with activity names: "WALking", "WALKING_UPSTAIRS", "WALKING_DOWNSTAIRS", "SITTING", "STANDING", "LAYING"<br>
 
-**"Time_Body_Accelerometer_mean/std_X/Y/Z"**: Numeric data within [-1,1], average mean value / standard deviation of time domain **signals of body linear acceleration on X/Y/Z axis<br>
+**"Time_Body_Accelerometer_mean/std_X/Y/Z"**: Numeric data within [-1,1], average mean value / standard deviation of time domain signals of body linear acceleration on X/Y/Z axis<br>
 
 **"Time_Gravity_Accelerometer_mean/std_X/Y/Z"**: Numeric data within [-1,1], average mean value / standard deviation of time domain signals of gravity acceleration on X/Y/Z axis<br>
 
