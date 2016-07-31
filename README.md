@@ -16,7 +16,7 @@ This run_analysis.R file downloads data from website, then manipulates and clean
 
 ### Detailed steps inside "run_analysis.R"
 1. Merge the training and the test sets to create one data set.  
-   a. download the zip file   
+  * a. download the zip file   
    b. unzip data  
    c. read data into R  
    d. merge the training and the test sets  
